@@ -1,7 +1,17 @@
 #include "registry.hpp"
 
+#include <cassert>
 #include <string>
-#include <unordered_map>
+
+// One Away: There are three types of edits that can be performed on strings:
+// insert a character, remove a character, or replace a character. Given two
+// strings, write a function to check if they are one edit (or zero edits) away.
+//
+// EXAMPLE
+// pale, ple -> true
+// pales, pale -> true
+// pale, bale -> true
+// pale, bae -> false
 
 class Solution {
     static bool one_away(const std::string& s1, const std::string& s2) {
@@ -30,11 +40,14 @@ class Solution {
                 }
             }
         }
-        return change_found;
+        return true;
     }
     static void run() {
-        const bool result = one_away("pale", "ple");
-        printf("%b\n", result);
+        assert(one_away("pale", "ple"));
+        assert(one_away("pales", "pale"));
+        assert(one_away("pale", "bale"));
+        assert(!one_away("pale", "bae"));
+        assert(one_away("pale", "pale"));
     }
 public:
     Solution() {
