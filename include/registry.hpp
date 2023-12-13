@@ -19,6 +19,5 @@ public:
     static void reg(ID id, FunctionPointer f) {
         map.emplace(id, f);
     }
-private:
     inline static Map map;
 };
