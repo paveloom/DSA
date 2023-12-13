@@ -8,6 +8,7 @@ Checks: >
   -cppcoreguidelines-pro-bounds-pointer-arithmetic,
   -cppcoreguidelines-pro-type-vararg,
   -fuchsia-*,
+  -google-readability-namespace-comments,
   -hicpp-signed-bitwise,
   -hicpp-vararg,
   -llvm-*,

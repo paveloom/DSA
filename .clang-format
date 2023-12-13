@@ -8,6 +8,7 @@ BinPackArguments: false
 BinPackParameters: false
 BreakStringLiterals: false
 EmptyLineBeforeAccessModifier: Never
+FixNamespaceComments: false
 IncludeBlocks: Regroup
 IndentAccessModifiers: false
 IndentPPDirectives: AfterHash

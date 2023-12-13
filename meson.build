@@ -43,7 +43,11 @@ add_project_link_arguments(
   language: 'cpp',
 )
 
-sources = ['src/CtCI, 6th Edition/1.5 - One Away/solution.cpp', 'src/main.cpp']
+sources = [
+  'src/CtCI, 6th Edition/1.5 - One Away/solution.cpp',
+  'src/CtCI, 6th Edition/1.6 - String Compression/solution.cpp',
+  'src/main.cpp',
+]
 
 include_dir = include_directories('include')
 
