@@ -35,6 +35,7 @@
           clang-tools_16
           cppcheck
           cpplint
+          rr
           swift-mesonlsp
           valgrind
 

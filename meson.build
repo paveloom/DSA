@@ -46,6 +46,7 @@ add_project_link_arguments(
 sources = [
   'src/CtCI, 6th Edition/1.5 - One Away.cpp',
   'src/CtCI, 6th Edition/1.6 - String Compression.cpp',
+  'src/CtCI, 6th Edition/1.7 - Rotate Matrix.cpp',
   'src/main.cpp',
 ]
 

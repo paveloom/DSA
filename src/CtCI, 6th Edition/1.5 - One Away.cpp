@@ -1,7 +1,6 @@
 #include "expect.hpp"
 #include "registry.hpp"
 
-#include <cassert>
 #include <string>
 
 // 1.5 - One Away: There are three types of edits that can be performed on

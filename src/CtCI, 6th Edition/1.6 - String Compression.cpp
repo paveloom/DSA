@@ -1,7 +1,6 @@
 #include "expect.hpp"
 #include "registry.hpp"
 
-#include <cassert>
 #include <string>
 
 // 1.6 - String Compression: Implement a method to perform basic string
